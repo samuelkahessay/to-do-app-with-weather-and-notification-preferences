@@ -4,12 +4,13 @@
   "issues": {
     "2": {"state": "closed", "attempted": true, "pr_created": true, "pr_merged": true, "title": "Project Scaffold", "pr_number": 8},
     "3": {"state": "closed", "attempted": true, "pr_created": true, "pr_merged": true, "title": "In-Memory Data Layer"},
-    "4": {"state": "open", "attempted": false, "blocked_by": [], "title": "To-Do CRUD API"},
-    "5": {"state": "open", "attempted": true, "pr_created": true, "title": "Notification Preferences API", "pr_branch": "repo-assist/issue-5-notification-preferences-api"},
+    "4": {"state": "open", "attempted": true, "pr_created": true, "title": "To-Do CRUD API", "pr_branch": "repo-assist/issue-4-todos-crud-api"},
+    "5": {"state": "open", "attempted": true, "pr_created": true, "title": "Notification Preferences API", "pr_branch": "repo-assist/issue-5-notifications-api"},
     "6": {"state": "closed", "attempted": true, "pr_created": true, "pr_merged": true, "title": "Weather Integration", "pr_number": 10}
   },
   "prs": {
-    "issue-5": {"branch": "repo-assist/issue-5-notification-preferences-api", "status": "open"}
+    "issue-4": {"branch": "repo-assist/issue-4-todos-crud-api", "status": "open"},
+    "issue-5": {"branch": "repo-assist/issue-5-notifications-api", "status": "open"}
   },
   "aw_issues": {}
 }
