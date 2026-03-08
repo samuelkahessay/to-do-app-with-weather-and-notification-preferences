@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-03-08T05:27:37Z",
+  "last_run": "2026-03-08T06:03:00Z",
   "cursor": 15,
   "pipeline_complete": true,
   "issues": {
@@ -8,10 +8,14 @@
     "4": {"state": "closed", "attempted": true, "pr_created": true, "pr_merged": true, "title": "To-Do CRUD API", "pr_number": 12},
     "5": {"state": "closed", "attempted": true, "pr_created": true, "pr_merged": true, "title": "Notification Preferences API", "pr_number": 14},
     "6": {"state": "closed", "attempted": true, "pr_created": true, "pr_merged": true, "title": "Weather Integration", "pr_number": 10},
-    "15": {"state": "closed", "attempted": true, "pr_created": true, "pr_merged": true, "title": "React Frontend: To-Do Home Page, Weather Widget, and Notifications Page", "pr_number": 16}
+    "15": {"state": "closed", "attempted": true, "pr_created": true, "pr_merged": true, "title": "React Frontend", "pr_number": 16}
   },
   "prs": {},
   "aw_issues": {
-    "7": {"state": "open", "status": "resolved", "note": "Underlying issue resolved. Previous runs added 2 comments confirming pipeline complete. Issue remains open but cannot be auto-closed. No further action needed."}
-  }
+    "7": {"state": "open", "status": "resolved", "note": "Underlying issue resolved. Multiple comments confirming pipeline complete. Issue remains open but no further action needed."},
+    "19": {"state": "open", "status": "normal", "note": "No-Op runs tracker, managed by gh-aw system. Do not close."}
+  },
+  "open_non_pipeline_prs": [
+    {"number": 18, "title": "[code-simplifier] Code Simplification - 2026-03-08", "note": "Not a pipeline PR, awaiting human review"}
+  ]
 }
