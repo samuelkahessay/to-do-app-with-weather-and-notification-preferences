@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import weatherRouter from './routes/weather';
+import notificationsRouter from './routes/notifications';
 
 const app = express();
 
@@ -12,5 +13,6 @@ app.get('/health', (_req, res) => {
 });
 
 app.use('/api/weather', weatherRouter);
+app.use('/api/notifications', notificationsRouter);
 
 export default app;
