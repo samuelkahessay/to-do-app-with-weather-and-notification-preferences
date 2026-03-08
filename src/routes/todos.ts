@@ -28,7 +28,7 @@ router.get('/:id', (req, res) => {
 
 router.put('/:id', (req, res) => {
   const { title, completed } = req.body as Record<string, unknown>;
-  const patch: Partial<Pick<import('../store/todoStore').TodoItem, 'title' | 'completed'>> = {};
+  const patch: Partial<Pick<todoStore.TodoItem, 'title' | 'completed'>> = {};
   if (typeof title === 'string') patch.title = title;
   if (typeof completed === 'boolean') patch.completed = completed;
   const updated = todoStore.update(req.params.id, patch);

@@ -18,12 +18,9 @@ export interface WeatherResult {
 
 export async function fetchWeather(lat: number, lon: number): Promise<WeatherResult> {
   const url = `${OPEN_METEO_URL}?latitude=${lat}&longitude=${lon}&current_weather=true`;
-  let response: Response;
-  try {
-    response = await fetch(url);
-  } catch {
+  const response = await fetch(url).catch(() => {
     throw new Error('Weather service unavailable');
-  }
+  });
   if (!response.ok) {
     throw new Error('Weather service unavailable');
   }
